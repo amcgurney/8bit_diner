@@ -1,7 +1,6 @@
 #neon {
     color: #AB10B2;
     animation: glow 2s ease-in-out infinite alternate;
-    font-family: 'Press Start 2P', cursive;
     font-size: 70px;
     display: inline-block;
     background: none;
@@ -23,18 +22,6 @@
     }
   }
   
-  .button-wrapper {
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-  }
-  
-  button {
-    font-family: 'Press Start 2P';
-    padding: 5px;
-    background: rgba(226, 216, 216, 0.3);
-  }
-  
   html,
   body {
     width: 100%;
@@ -44,7 +31,6 @@
   }
   
   body {
-    font-family: 'Press Start 2P';
     background: url("https://assets.codepen.io/51961/traffic-signal-scene.gif")
       no-repeat center center fixed;
     -webkit-background-size: cover;
